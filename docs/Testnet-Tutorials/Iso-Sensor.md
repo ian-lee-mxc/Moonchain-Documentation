@@ -66,7 +66,7 @@ Private key:
 
 ## Prepare an X2E board
 
-If you don't have an X2E board that sends temperature readings, please follow the instructions in [SetupX2E.md](./SetupX2E.md) to set one up for this tutorial.
+If you don't have an X2E board that sends temperature readings, please follow the instructions in [SetupX2E.md](https://github.com/MXCzkEVM/Moonchain-Issue-IsoSensorToken/blob/main/SetupX2E.md) to set one up for this tutorial.
 
 You will need the `pidZkevmHash` for the following steps, as it serves as the unique identifier for your X2E board on the Moonchain.
 
