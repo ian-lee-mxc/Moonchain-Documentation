@@ -14,12 +14,12 @@ If you are interested in learning about the basics of zero-knowledge proofs, EVM
 
 ## 🌔 Getting Started
 
-<a href="https://doc.moonchain.com/docs/Tutorials/configure-wallet" class="big-button">Configure Your Wallet to Moonchain</a>
-<a href="https://doc.moonchain.com/docs/Resources/RPC" class="big-button">Check RPC endpoints</a>
-<a href="https://doc.moonchain.com/docs/Tutorials/run-a-supernode" class="big-button">Run a L3 validator node</a>
-<a href="https://doc.moonchain.com/docs/Designs/Hexagons" class="big-button">DePIN hexagon</a>
-<a href="https://doc.moonchain.com/docs/Tutorials/build-a-dapp" class="big-button">Build a Dapp on Moonchain</a>
-<a href="https://doc.moonchain.com/docs/Tutorials/l3-bridge" class="big-button">L3 Bridge</a>
+<a href="/Moonchain-Documentation/docs/Moonchain-Design/Chains-and-Testnets" class="big-button">Configure Your Wallet to Moonchain</a>
+<a href="/Moonchain-Documentation/docs/Resources/RPC-Configuration" class="big-button">Check RPC endpoints</a>
+<a href="/Moonchain-Documentation/docs/Testnet-Tutorials/Run-Moonchain-Supernode" class="big-button">Run a L3 validator node</a>
+<a href="/Moonchain-Documentation/docs/Moonchain-Design/Hexagons" class="big-button">DePIN hexagon</a>
+<a href="/Moonchain-Documentation/docs/Testnet-Tutorials/Build-A-Dapp" class="big-button">Build a Dapp on Moonchain</a>
+<a href="/Moonchain-Documentation/docs/Mainnet-Tutorials/Using-The-L3-Bridge" class="big-button">L3 Bridge</a>
 
 ## 📖Introducing Moonchain zkEVM
 
