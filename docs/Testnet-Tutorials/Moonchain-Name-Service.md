@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 import MNS_Landingpage from '/img/MNS_Landingpage.jpg';
 import MNS_Create from '/img/MNS_Create.jpg';
