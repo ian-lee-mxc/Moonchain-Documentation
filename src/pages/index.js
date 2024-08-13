@@ -35,8 +35,8 @@ function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={'Home'}
-      description="Description will go into a meta tag in <head />"
+      title={''}
+      description="The fastest, hyper-scalable DePIN native Layer 3 on Ethereum <head />"
     >
       <HomepageHeader />
     </Layout>

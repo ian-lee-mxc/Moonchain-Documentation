@@ -16,7 +16,7 @@ If you are interested in learning about the basics of zero-knowledge proofs, EVM
 
 <a href="/docs/Moonchain-Design/Chains-and-Testnets" class="big-button">Configure Your Wallet to Moonchain</a>
 <a href="/docs/Resources/RPC-Configuration" class="big-button">Check RPC endpoints</a>
-<a href="docs/Testnet-Tutorials/Run-Moonchain-Supernode" class="big-button">Run a L3 validator node</a>
+<a href="/docs/Testnet-Tutorials/Run-Moonchain-Supernode" class="big-button">Run a L3 validator node</a>
 <a href="/docs/Moonchain-Design/Hexagons" class="big-button">DePIN hexagon</a>
 <a href="/docs/Testnet-Tutorials/Build-A-Dapp" class="big-button">Build a Dapp on Moonchain</a>
 <a href="/docs/Mainnet-Tutorials/Using-The-L3-Bridge" class="big-button">L3 Bridge</a>
