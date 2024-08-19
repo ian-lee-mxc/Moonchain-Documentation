@@ -12,6 +12,7 @@ import DFU_4 from '/img/Iso_Sensor/DFU_4.png';
 import Explorer_1 from '/img/Iso_Sensor/explorer_1.png';
 import Explorer_2 from '/img/Iso_Sensor/explorer_2.png';
 import Issue_Iso_Sensor_Token from '/img/Iso_Sensor/issue_iso_sensor_token.png';
+import Iso_Sensor_Sequence_Diagram from '/img/Iso_Sensor/Sequenzdiagramm_ISO_Example.jpg';
 import Mep804_Deployed from '/img/Iso_Sensor/mep804_deployed.png';
 import Metamask_1 from '/img/Iso_Sensor/metamask_1.png';
 import Metamask_2 from '/img/Iso_Sensor/metamask_2.png';
@@ -38,7 +39,12 @@ This comprehensive tutorial demonstrates the process of issuing an ISO Sensor To
 </iframe>
 
 ### English
-coming soon
+<iframe 
+    width="800" height="450" src="https://www.youtube.com/embed/1CBia5OSlSg?start=15" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
 
 ## Moonchain Info
 
@@ -188,6 +194,8 @@ https://geneva-explorer.moonchain.com/address/0x84b09Fa524BD619B0Af7dF1fde6D42ca
 
 
 ## Issuing a ISO Sensor Token
+
+<img src={Iso_Sensor_Sequence_Diagram} alt="Iso_Sensor_Sequence_Diagram" class="full-width-image" />
 
 Set contract addresses and private key for the scripts to use.
 
