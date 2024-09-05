@@ -141,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Moonchain`,
+        copyright: `Copyright © ${new Date().getFullYear()} Moonbase Explorations Inc.`,
       },
       prism: {
         theme: prismThemes.github,
