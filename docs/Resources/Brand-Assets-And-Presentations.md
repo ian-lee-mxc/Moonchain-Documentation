@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Logo: 
 The Moonchain font is a SpaceX font, [try this link.](https://www.fontget.com/font/spacex/)
 
-[Image logo SVG download](https://github.com/MXCzkEVM/SupernodeV2-devdocs/tree/main/static/brand)
+[Image logo SVG download](https://github.com/MXCzkEVM/Moonchain-Documentation/tree/main/static/Brand)
 
 ## Presentations
 
