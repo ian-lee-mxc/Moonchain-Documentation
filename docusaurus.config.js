@@ -49,9 +49,6 @@ const config = {
           ],
           rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -59,9 +56,6 @@ const config = {
             [require('@docusaurus/remark-plugin-npm2yarn'), { converters: ['pnpm'] }],
           ],
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
