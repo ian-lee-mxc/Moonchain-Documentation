@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 --- 
 
 import DFU_1 from '/img/X2E/DFU_1.png';
