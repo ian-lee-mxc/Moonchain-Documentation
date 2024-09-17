@@ -41,44 +41,6 @@ The Geneva Testnet is a specialized test network on the Moonchain blockchain tha
 3. MetaMask should now offer to switch to the Geneva testnet, click on it and you will see “Moonchain Geneva Testnet” as the current network at the top.
 <img src={Metamask5} alt="Switched to Geneva" class="full-width-image" />
 
-**Step 1: Open MetaMask and Log In**
-
-1. Click the MetaMask icon in your browser to open the wallet.
-2. Log in with your password or seed phrase if you are not already logged in.
-
-   Login with password
-
-   <p align="center">
-     <img src={Metamask1} alt="open_Metamask" class="full-width-image" />
-   </p>
-
-   or enter your seed phrase
-
-   <p align="center">
-     <img src={Metamask2} alt="Login with password" class="full-width-image" />
-   </p>
-
-**Step 2: Add a New Network**
-
-1. Click on the network dropdown at the top (e.g., “Ethereum Mainnet”).
-
-   <p align="center">
-     <img src={Metamask3} alt="Network dropdown" class="full-width-image" />
-   </p>
-
-2. Select “Add network” from the drop-down menu at the bottom and then “Add a network manually” in the window that opens. Enter the same values as shown in the picture.
-
-   <p align="center">
-     <img src={Metamask4} alt="Network settings" class="full-width-image" />
-   </p>
-
-3. MetaMask should now offer to switch to the Geneva testnet. Click on it, and you will see “Moonchain Geneva Testnet” as the current network at the top.
-
-   <p align="center">
-     <img src={Metamask5} alt="Switched to Geneva" class="full-width-image" />
-   </p>
-
-
 
 
 
