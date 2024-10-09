@@ -94,5 +94,6 @@ For any additional information:
 - Global Headquarters:
   - Moonbase Explorations Inc.
   - Intershore Chambers, Road Town, Tortola, British Virgin Islands
+  - Phone: +1 513-666-7778
 
 Please be informed that Moonbase Explorations Inc. operates as a decentralized crypto exchange and is not considered a licensed business under BVI law. Decentralized cryptocurrency and NFT exchange transactions are not considered financial instruments by BVI Financial Services Commission, regardless of their purpose. This determination indicates that BVI does not categorize spot Cryptocurrency and NFT as a securities product. Consequently, the retail Cryptocurrency and NFT business conducted by Moonbase Explorations Inc. is not under securities regulation in BVI and does not require additional licensing.
