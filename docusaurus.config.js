@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Moonbase Explorations Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MoonX, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
