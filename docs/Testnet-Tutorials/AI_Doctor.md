@@ -14,11 +14,11 @@ import Ragflow10 from '/img/Ragflow/Ragflow10.png';
 import Ragflow11 from '/img/Ragflow/Ragflow11.png';
 
 
-# Build your own AI-Doctor with the use of Moonchain, RagFlow & WearFI
+# Build Your Own AI-Doctor Using Moonchain, RagFlow, and WearFI
 This tutorial will guide you through creating an AI Doctor that analyzes health data from Moonchain using Ragflow as a local instance and TypeScript. We will cover data collection, processing, and report generation using Gemini as LLM.
 
 ## Overview
-1. Collect Moonchain Data: Use Moonchain smart contracts to get health data events.
+1. Collect Health Data from Moonchain: Retrieve health data events using Moonchain smart contracts.
 2. Process with Ragflow: Format and send the data to Ragflow to receive AI-generated insights.
 3. Display Results: Present the analyzed data or publish it.
 
@@ -31,7 +31,7 @@ This tutorial will guide you through creating an AI Doctor that analyzes health 
 **Important:** In order to obtain the correct version, the `RAGFLOW_IMAGE` variable in docker/.env should be set to the value`RAGFLOW_IMAGE=infiniflow/ragflow:v0.12.0` before executing step 3 of the readme. 
 - An API key from Google's Gemini, which can be obtained from the following page: [https://ai.google.dev/](https://ai.google.dev/). To obtain an API from Google, you need a Google Account.
 
-After we have successfully started our container, we can access our UI with one of the IP addresses that were issued in step 4. For the sake of simplicity, we will use the address `127.0.0.1` in this explanation. To continue with Ragflow, we go to the page http://127.0.0.1/login
+After we have successfully started our container, we can access our UI with one of the IP addresses that were issued in step 4. For simplicity, we'll use the IP address `127.0.0.1` in this tutorial. To continue with Ragflow, we go to the page http://127.0.0.1/login
 <img src={Ragflow1} alt="Ragflow1" style={{ maxWidth: '70%', height: 'auto' }} />
 We create a new account there (note: this account only exists locally and has no link to Ragflow Demo) and log in to it. 
 <img src={Ragflow2} alt="Ragflow2" style={{ maxWidth: '70%', height: 'auto' }} />
@@ -42,7 +42,7 @@ Now that we have created access to our desired model for Ragflow, the next step 
 <img src={Ragflow4} alt="Ragflow4" style={{ maxWidth: '70%', height: 'auto' }} />
 We save this setting and next select the `Dataset` item from the left-hand menu, where we can now store the files that our chatbot should use as its knowledge base. These files are located in the repository for our project [https://github.com/MajorDomDePIN/MajorDoms_AI_Doctor/tree/final](https://github.com/MajorDomDePIN/MajorDoms_AI_Doctor/tree/final) in the folder 'knowledge_base'. By clicking on 'Add files', we can now make them available from our local file system to our local Ragflow instance.
 <img src={Ragflow5} alt="Ragflow5" style={{ maxWidth: '70%', height: 'auto' }} />
-In order to prepare the provided files ideally for use by Large Language models (LLM), they must be divided into individual chunks. We initiate this by clicking on the green play button next to each file; it may be necessary to initiate this process several times before it is fully completed. 
+In order to prepare the provided files ideally for use by Large Language models (LLM), they must be divided into individual chunks, it is necessary to ensure the provided files are prepared in an optimized format for processing by the Large Language Model (LLM). We initiate this by clicking on the green play button next to each file; it may be necessary to initiate this process several times before it is fully completed. 
 
 <img src={Ragflow6} alt="Ragflow6" style={{ maxWidth: '70%', height: 'auto' }} />
 
@@ -51,7 +51,7 @@ As soon as the chunking of our files has been completed, we can start configurin
 <img src={Ragflow7} alt="Ragflow7" style={{ maxWidth: '70%', height: 'auto' }} />
 We click on 'Create an Assistant', enter a name in the pop-up window, select our previously created knowledge base at the bottom, and deactivate the 'Show Quote' option, which otherwise would include references to the knowledge base in the model's response—something we do not want in this case.
 <img src={Ragflow8} alt="Ragflow8" style={{ maxWidth: '70%', height: 'auto' }} />
-We click on 'Create an Assistant' and enter a name in the window that opens and select our previously created knowledgebase at the bottom and also deactivate the 'Show Quote' option, which would mean that the answer of our model would also include the knowledgebase used.
+We switch to the next tab, 'Prompt Engine', and adjust the system prompt as shown in the image above. Alternatively, it can also be found in the project repository.
 <img src={Ragflow9} alt="Ragflow9" style={{ maxWidth: '70%', height: 'auto' }} />
 To complete our assistant configuration, we switch to the last tab, 'Model Setting', and select the gemini-1.5-pro-latest model. With this, our assistant configuration is complete.
 
@@ -164,3 +164,5 @@ Here is the final script that controls and integrates the previous scripts:
 https://github.com/MajorDomDePIN/MajorDoms_AI_Doctor/blob/final/app/main_testing.ts
 
 Since this is the final script, it manages and summarizes the functionality of all previous scripts, providing an overarching structure.
+
+With this final script, you've successfully integrated all the components, creating a complete AI Doctor that utilizes Moonchain, RagFlow, and WearFI to analyze health data and provide personalized insights.
