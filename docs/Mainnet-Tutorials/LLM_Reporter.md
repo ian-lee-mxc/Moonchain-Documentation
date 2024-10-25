@@ -14,7 +14,7 @@ We will cover the following steps:
 3. Formatting and publishing the report to your desired platforms, such as Twitter.
 
 
-<img src={BlockDiagram} alt="BlockDiagram" class="full-width-image" />
+<img src={BlockDiagram} alt="BlockDiagram" style={{ maxWidth: '70%', height: 'auto' }} />
 
 The above block diagram illustrates the workflow involved in generating insightful reports from Moonchain data using an LLM. It details the stages from data collection, through processing with Ragflow, to the final report generation and publishing.
 
