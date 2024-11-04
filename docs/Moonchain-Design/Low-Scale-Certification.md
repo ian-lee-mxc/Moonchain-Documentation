@@ -35,10 +35,10 @@ LPWAN offers cost-effective and energy-efficient connectivity solutions for vari
 
 <img src={LPWAN} alt="Low Scale Certification Graphic" class="full-width-image" />
 
-### 1.2 MXC Blockchain 
+### 1.2 Moonchain Blockchain 
 is a decentralized, open-source blockchain platform specifically designed to support the Internet of Things (IoT) ecosystem and machine-to-machine (M2M) communication. 
 
-By leveraging the benefits of distributed ledger technology, MXC aims to create a more efficient, secure, and transparent environment for IoT devices and applications. The platform enables device interoperability, facilitates data sharing, and ensures secure data transactions among connected devices. Additionally, MXC Blockchain incentivizes users through its native cryptocurrency, the MXC token, which can be utilized for various purposes within the network, such as device registration, data transactions, and participation in network governance.
+By leveraging the benefits of distributed ledger technology, Moonchain aims to create a more efficient, secure, and transparent environment for IoT devices and applications. The platform enables device interoperability, facilitates data sharing, and ensures secure data transactions among connected devices. Additionally, Moonchain Blockchain incentivizes users through its native cryptocurrency, the MXC token, which can be utilized for various purposes within the network, such as device registration, data transactions, and participation in network governance.
 
 ### 1.3 Low Scale Certification
 
@@ -72,7 +72,7 @@ By requiring a quorum, distributed networks can prevent malicious actors from ta
 
 Quorum mechanisms contribute to the overall trust and reliability of a distributed system by ensuring that decisions and transactions are made with broad consensus among the participating nodes.
 
-A quorum in a consensus group refers to the minimum number of participants or nodes required to reach an agreement on the state of the blockchain. Establishing a quorum ensures that decisions are made collectively and that a single entity or a small group of nodes cannot manipulate or control the network. Quorums play a crucial role in maintaining the integrity, security, and decentralization of the MXC blockchain.
+A quorum in a consensus group refers to the minimum number of participants or nodes required to reach an agreement on the state of the blockchain. Establishing a quorum ensures that decisions are made collectively and that a single entity or a small group of nodes cannot manipulate or control the network. Quorums play a crucial role in maintaining the integrity, security, and decentralization of the Moonchain blockchain.
 
 ### 1.6 2.4 GHz Miners
 
@@ -82,11 +82,11 @@ These miners operate in the 2.4 GHz frequency band, which is a globally availabl
 
 <img src={NEO} alt="NEO GHz Miner" class="full-width-image" />
 
-2.4 GHz LPWAN Miners contribute to the MXC network by verifying and validating transactions, maintaining the blockchain ledger, and facilitating secure communication between devices. 
+2.4 GHz LPWAN Miners contribute to the Moonchain network by verifying and validating transactions, maintaining the blockchain ledger, and facilitating secure communication between devices. 
 
 They are optimized for energy efficiency and long-range connectivity, making them suitable for IoT applications and remote monitoring scenarios.
 
-The 2.4 GHz LPWAN miners contribute to the MXC ecosystem by validating transactions, participating in consensus groups, and maintaining the seamless connection between the physical world and the metaverse.
+The 2.4 GHz LPWAN miners contribute to the Moonchain ecosystem by validating transactions, participating in consensus groups, and maintaining the seamless connection between the physical world and the metaverse.
 
 ### 1.7 sub GHz Miners
 
@@ -96,17 +96,17 @@ Sub GHz LPWAN Miners are particularly well-suited for applications requiring mor
 
 <img src={M2Pro} alt="sub GHz Miners" class="full-width-image" />
 
-Like their 2.4 GHz counterparts, Sub GHz LPWAN Miners contribute to the MXC network by verifying transactions, maintaining the blockchain ledger, and enabling secure communication between devices. They are also optimized for energy efficiency and extended connectivity, making them an ideal choice for IoT applications and remote monitoring situations.
+Like their 2.4 GHz counterparts, Sub GHz LPWAN Miners contribute to the Moonchain network by verifying transactions, maintaining the blockchain ledger, and enabling secure communication between devices. They are also optimized for energy efficiency and extended connectivity, making them an ideal choice for IoT applications and remote monitoring situations.
 
 Similar to the 2.4 GHz LPWAN miners, Sub GHz LPWAN miners also participate in validating transactions, consensus groups, and maintaining the connection between the physical world and the metaverse.
 
 ### 1.8 MXC Hexagons
 
-MXC Hexagons are a conceptual model used within the MXC ecosystem to bridge the physical world and the metaverse by representing the geographical distribution and coverage of LPWAN Miners, such as the 2.4 GHz and Sub GHz devices discussed earlier. This hexagonal grid layout serves as an efficient way to organize and visualize the network coverage provided by these miners, ensuring optimal connectivity and data transmission for IoT devices and applications on Earth while simultaneously mirroring the Earth's grid in the metaverse.
+Moonchain Hexagons are a conceptual model used within the Moonchain ecosystem to bridge the physical world and the metaverse by representing the geographical distribution and coverage of LPWAN Miners, such as the 2.4 GHz and Sub GHz devices discussed earlier. This hexagonal grid layout serves as an efficient way to organize and visualize the network coverage provided by these miners, ensuring optimal connectivity and data transmission for IoT devices and applications on Earth while simultaneously mirroring the Earth's grid in the metaverse.
 
-By connecting the Earth and the metaverse through MXC Hexagons, the MXC ecosystem can seamlessly integrate the benefits of both worlds, enabling a more comprehensive and immersive experience for users and network participants. This interconnected model allows for the development and deployment of innovative IoT applications and services that leverage the strengths of both the physical and virtual domains, unlocking new possibilities for communication, data exchange, and resource management.
+By connecting the Earth and the metaverse through Moonchain Hexagons, the Moonchain ecosystem can seamlessly integrate the benefits of both worlds, enabling a more comprehensive and immersive experience for users and network participants. This interconnected model allows for the development and deployment of innovative IoT applications and services that leverage the strengths of both the physical and virtual domains, unlocking new possibilities for communication, data exchange, and resource management.
 
-MXC Hexagons can be used to address various network planning and deployment challenges, such as:
+Moonchain Hexagons can be used to address various network planning and deployment challenges, such as:
 
 #### 1.8.1 Coverage Optimization: 
 By arranging LPWAN Miners in a hexagonal pattern, network planners can ensure optimal coverage and signal strength for IoT devices within the network. The hexagonal grid provides a more uniform and consistent coverage area compared to other shapes, like squares or circles, minimizing coverage gaps and signal degradation. Each hexagon is around 2 kilometer in diameter
@@ -115,19 +115,19 @@ By arranging LPWAN Miners in a hexagonal pattern, network planners can ensure op
 The hexagonal model allows for easy expansion and scalability of the network as new LPWAN Miners are deployed. As the network grows, additional hexagons can be added to the grid, seamlessly integrating with the existing coverage areas and maintaining optimal connectivity.
 
 #### 1.8.3 Resource Allocation: 
-MXC Hexagons can be used to allocate resources and responsibilities among LPWAN Miners within the network. By dividing the coverage area into hexagonal zones, network operators can assign specific tasks or roles to the miners within each hexagon, such as data processing, transaction validation, or network synchronization, optimizing the overall performance and efficiency of the system.
+Moonchain Hexagons can be used to allocate resources and responsibilities among LPWAN Miners within the network. By dividing the coverage area into hexagonal zones, network operators can assign specific tasks or roles to the miners within each hexagon, such as data processing, transaction validation, or network synchronization, optimizing the overall performance and efficiency of the system.
 
 #### 1.8.4 Network Visualization: 
-The hexagonal grid provides an intuitive and easy-to-understand representation of the network's coverage and connectivity. Network operators, IoT device manufacturers, and end-users can quickly grasp the network layout, signal strength, and Miner distribution by examining the MXC Hexagons, aiding in network planning, troubleshooting, and device deployment decisions.
+The hexagonal grid provides an intuitive and easy-to-understand representation of the network's coverage and connectivity. Network operators, IoT device manufacturers, and end-users can quickly grasp the network layout, signal strength, and Miner distribution by examining the Moonchain Hexagons, aiding in network planning, troubleshooting, and device deployment decisions.
 
 #### 1.8.5 Hexagons and Consensus Groups: 
-MXC Hexagons also play a vital role in the formation and operation of Consensus Groups within the MXC ecosystem. By organizing the LPWAN Miners into hexagonal zones, the network can more effectively distribute the responsibility for validating transactions and maintaining the blockchain ledger among the miners.
+MXC Hexagons also play a vital role in the formation and operation of Consensus Groups within the Moonchain ecosystem. By organizing the LPWAN Miners into hexagonal zones, the network can more effectively distribute the responsibility for validating transactions and maintaining the blockchain ledger among the miners.
 
 Each hexagon can be associated with a specific Consensus Group, consisting of miners located within that hexagonal zone. This localized approach allows for faster and more efficient consensus decision-making, as miners within a given hexagon are likely to have stronger connectivity and lower latency compared to miners spread across the entire network.
 
 Furthermore, the hexagonal organization promotes network resilience and security. In the event of a miner failure or malicious activity, the impact on the network is localized to the affected hexagon, preventing the issue from spreading throughout the entire system. This structure also makes it more challenging for an attacker to compromise the network, as they would need to target multiple hexagons and Consensus Groups simultaneously to have a significant impact.
 
-By integrating MXC Hexagons with the Consensus Group structure, the MXC ecosystem can ensure robust network performance, security, and reliability while maintaining the decentralization and democratic decision-making principles that underpin the blockchain technology.
+By integrating Moonchain Hexagons with the Consensus Group structure, the Moonchain ecosystem can ensure robust network performance, security, and reliability while maintaining the decentralization and democratic decision-making principles that underpin the blockchain technology.
 
 ## Chapter 2: Design Aims
 
@@ -188,16 +188,16 @@ Precise synchronization plays a vital role in ensuring the overall performance a
 ### 2.3 Trustworthy Location
 
 #### 2.3.1 Importance of accurate location
-Ensuring the accurate representation of a device's location in both the real world and the metaverse is crucial for maintaining the integrity of the network and the seamless connection between the two domains. Accurate location information helps protect the network from potential attacks, in which malicious actors may attempt to disrupt the system by providing false location data for devices. Moreover, as the hexagon grid plays a vital role in the consensus group, accurate location data is essential for the proper functioning of the MXC blockchain and LPWAN devices.
+Ensuring the accurate representation of a device's location in both the real world and the metaverse is crucial for maintaining the integrity of the network and the seamless connection between the two domains. Accurate location information helps protect the network from potential attacks, in which malicious actors may attempt to disrupt the system by providing false location data for devices. Moreover, as the hexagon grid plays a vital role in the consensus group, accurate location data is essential for the proper functioning of the Moonchain blockchain and LPWAN devices.
 
 #### 2.3.2 Goal of accurate location
-The system aims to establish a secure and reliable connection between the metaverse, the devices using the network (such as LPWAN miners), and the MXC blockchain. By providing accurate and untampered location data through the use of hexagons as a representation of the metaverse grid, the system ensures that location information can be checked, traced, and trusted by the public. This approach makes it more challenging for attackers to compromise the network, as the location data is transparent and verifiable, promoting a more secure environment for users and network participants. Through this method, the system reinforces the trustworthiness of the connection between the physical world and the metaverse, fostering a reliable foundation for the development of innovative applications and services.
+The system aims to establish a secure and reliable connection between the metaverse, the devices using the network (such as LPWAN miners), and the Moonchain blockchain. By providing accurate and untampered location data through the use of hexagons as a representation of the metaverse grid, the system ensures that location information can be checked, traced, and trusted by the public. This approach makes it more challenging for attackers to compromise the network, as the location data is transparent and verifiable, promoting a more secure environment for users and network participants. Through this method, the system reinforces the trustworthiness of the connection between the physical world and the metaverse, fostering a reliable foundation for the development of innovative applications and services.
 
 #### 2.3.3 Trustworthy Location Verification Techniques
 Several techniques can be employed to ensure accurate and trustworthy location data in the network. These may include time difference of arrival (TDoA), received signal strength indicator (RSSI), and signal-to-noise ratio (SNR) measurements. Combining multiple location verification techniques can further improve location accuracy and reliability, making it more challenging for attackers to manipulate or falsify the data.
 
 #### 2.3.4 The Role Of The Consensus Group In Maintaining Trustworthy Location Data
-The consensus group plays an essential part in maintaining trustworthy location data in the MXC blockchain. By participating in the validation and confirmation of location information, the consensus group members help ensure that the data remains accurate and consistent throughout the network. This collaborative approach, in conjunction with the use of blockchain technology, provides a transparent, decentralized, and secure environment for location data management. Consequently, it upholds the seamless connection between the physical world and the metaverse and the overall integrity of the network.
+The consensus group plays an essential part in maintaining trustworthy location data in the Moonchain blockchain. By participating in the validation and confirmation of location information, the consensus group members help ensure that the data remains accurate and consistent throughout the network. This collaborative approach, in conjunction with the use of blockchain technology, provides a transparent, decentralized, and secure environment for location data management. Consequently, it upholds the seamless connection between the physical world and the metaverse and the overall integrity of the network.
 
 ### 2.4 Trustworthy Physical Existence
 
@@ -213,7 +213,7 @@ Establishing trustworthiness in proving the physical existence of objects is cru
 The challenge lies in devices made by third-party manufacturers wanting to connect to the network. Ensuring that these devices meet the necessary requirements and standards for proving their physical existence can be a complex and resource-intensive process.
 
 #### 2.4.3 Goal of Physical Existence Verification
-The primary goal of physical existence verification is to provide proof of physicality that is verifiable, traceable, and trusted by the public. By establishing trustworthy proof of existence, we can protect the network from fake devices that might disturb the network's functionality and security. This helps maintain the seamless connection between the physical world and the metaverse and ensures the integrity and reliability of the MXC network.
+The primary goal of physical existence verification is to provide proof of physicality that is verifiable, traceable, and trusted by the public. By establishing trustworthy proof of existence, we can protect the network from fake devices that might disturb the network's functionality and security. This helps maintain the seamless connection between the physical world and the metaverse and ensures the integrity and reliability of the Moonchain network.
 
 ## Chapter 3 LSC of physical existence for miners and sensors
 
@@ -232,12 +232,12 @@ is the process of establishing a shared secret key between the device and the cl
 Our method for LSC device provisioning involves three steps:
 
 - **Generate the PID:** 
-The PID is created by the Device owner on the Super Node using the MEP. The PID costs a fee. The SuperNode then creates an NFT on the blockchain with the PID attached to a secret, only visible to the owner of the NFT. The NFT is then sent to the Creator's wallet.
+The PID is created by the Device owner on the Supernode using the MEP. The PID costs a fee. The SuperNode then creates an NFT on the blockchain with the PID attached to a secret, only visible to the owner of the NFT. The NFT is then sent to the Creator's wallet.
 
 <img src={PID_Overview} alt="Provisioning ID Overview" class="full-width-image" />
 
 - **Program the PID into the device:** 
-The owner needs to flash the PID into the sensor device it wants to produce. They also need to print a label with the PID so the device can be added to the Data Dash app by scanning it.
+The owner needs to flash the PID into the sensor device it wants to produce. They must also print a label with the PID so that the device can be added to the desired application by scanning. 
 
 - **Device provisioning:** 
 PID is just an authenticator of the device; to join, the device needs to perform self-provisioning after it is manufactured.
@@ -288,11 +288,11 @@ By implementing the decentralized LSC solution, the system can establish a seaml
 
 ## Chapter 4: LSC of Location and Consensus Group
 
-### 4.1 Consensus Group in MXC Blockchain
+### 4.1 Consensus Group in Moonchain Blockchain
 
-In the MXC Blockchain, a consensus group is formed when miners collaborate to confirm transactions and record them on the blockchain. This section will explore how this process unfolds, from the initial registration of a miner to the formation and expansion of a consensus group.
+In the Moonchain Blockchain, a consensus group is formed when miners collaborate to confirm transactions and record them on the blockchain. This section will explore how this process unfolds, from the initial registration of a miner to the formation and expansion of a consensus group.
 
-#### 4.1.1 Flow of Consensus Group in MXC Blockchain
+#### 4.1.1 Flow of Consensus Group in Moonchain Blockchain
 
 The process begins when a miner registers within a specific geographical area, known as a hexagon, through the blockchain. The miner's existence is verified using its Provisioning Identifier (PID), and its location is confirmed by linking it to a specific hexagon. This location is then cross-verified by other miners through a process called peer listening.
 
@@ -331,10 +331,10 @@ The tokens in the tank are not only a sign of the miner's authenticity but also 
 ### 4.2 Consensus Group Ground Rules:
 
 #### 4.2.1 Definitions
-A Consensus Group serves as the collective consciousness of the MXC blockchain, following established protocols and formed under certain conditions. It represents a group of Miners, bound by the law of Quorum, which governs decision-making and merging dynamics within the group.
+A Consensus Group serves as the collective consciousness of the Moonchain blockchain, following established protocols and formed under certain conditions. It represents a group of Miners, bound by the law of Quorum, which governs decision-making and merging dynamics within the group.
 
 #### 4.2.2 Commitment to Implementation:
-The Consensus Group plays a pivotal role in the MXC blockchain, with responsibilities that include overseeing LPWAN devices and enforcing network rules and procedures. 
+The Consensus Group plays a pivotal role in the Moonchain blockchain, with responsibilities that include overseeing LPWAN devices and enforcing network rules and procedures. 
 
 A core component of these rules is the establishment of certain prerequisites that every miner must meet to qualify for membership in a consensus group. 
 

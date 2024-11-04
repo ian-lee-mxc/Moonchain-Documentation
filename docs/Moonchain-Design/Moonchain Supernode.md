@@ -10,7 +10,7 @@ In our zkEVM SupernodeV2, there are two important parts to a Moonchain Supernode
 - <code>mxc-client</code>
 
 ## MXC geth
-The [mxc-geth](https://github.com/MXCzkEVM/mxc-geth) repository is a customized version of [taiko-geth](https://github.com/taikoxyz/taiko-geth) tailored to integrate MXprotocol specifications. Functioning as an IoT Web3 platform, it interfaces with an LPWAN cluster as described [here](/docs/Moonchain-Design/LPWAN%20Protocol) previously. Similar to Ethereum's L1/L2 execution engines, <code>mxc-geth</code> monitors and processes new IoT transactions within the network. These transactions are ececuted on the EVM, maintaining the latest state and comprehensive database of current IoT data. Subsequently, it submits proofs using Zero-Knowledge cryptography for enhanced security and privacy.
+The [mxc-geth](https://github.com/MXCzkEVM/mxc-geth) repository is a customized version of [taiko-geth](https://github.com/taikoxyz/taiko-geth) tailored to integrate Moonchain's specifications. Functioning as an IoT Web3 platform, it interfaces with an LPWAN cluster as described [here](/docs/Moonchain-Design/LPWAN%20Protocol) previously. Similar to Ethereum's L1/L2 execution engines, <code>mxc-geth</code> monitors and processes new IoT transactions within the network. These transactions are ececuted on the EVM, maintaining the latest state and comprehensive database of current IoT data. Subsequently, it submits proofs using Zero-Knowledge cryptography for enhanced security and privacy.
 
 ## MXC client
 
