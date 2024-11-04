@@ -9,9 +9,9 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import GrafanaDashboard from '/img/GrafanaDashboard.png';
 
-# Running a Moonchain Supernode
+# Running a Moonchain supernode
 
-## Operating a Moonchain Supernode with simple-mxc-node
+## Operating a Moonchain supernode with simple-mxc-node
 This guide will walk you through the process of operating a Moonchain supernode using simple-mxc-node. 
 By following these steps, you will be able to:
     - Run a Moonchain supernode easily from the command line on Windows, Mac, and Linux.
@@ -86,7 +86,7 @@ You can get an Arbitrum L1 endpoint from various providers such as:
 Make sure you select the RPC as **Arbitrum Sepolia Testnet**, and not the Ethereum Mainnet.
 :::
 
-### Set Permissions and Create Folders
+### Defining authorizations and creating folders
 Create the necessary directories and set the permissions so that the Docker containers can access and write to them:
 
 ```sh
@@ -94,33 +94,33 @@ mkdir -p ./data/l2_execution_engine_data ./data/zkevm_chain_prover_rpcd_data ./d
 sudo chmod -R 777 ./data ./docker
 ```
 
-### Enable your Supernode as a Prover (optional)
+### Enable your supernode as a prover (optional)
 
 For more detailed information, please see [Enable a prover](./Enable-a-Prover).
 
 :::important[NOTE]
-Synchronizing from the genesis block may take some time. You can monitor this progress through logs or by using the local Grafana Dashboard. Additionally, you can check the latest L2 chain status in the [MXC Geneva Block Explorer](https://geneva-explorer.moonchain.com/).
+Synchronizing from the genesis block may take some time. You can monitor this progress through logs or by using the local Grafana Dashboard. Additionally, you can check the latest L2 chain status in the [Moonchain Geneva Block Explorer](https://geneva-explorer.moonchain.com/).
 :::
 
-**1. Ensure Docker is Running**: Make sure that the Docker is installed an actively running on your system.
+**1. Ensure Docker is running**: Make sure that the Docker is installed an actively running on your system.
 
-**2. Run the following command to start the Supernode**:
+**2. Run the following command to start the supernode**:
 ```sh
 docker compose up
 ```
-**3. Run the Supernode in the Background (Detached Mode)**: If you prefer to run the supernode in the background, add the `-d` flag to the command:
+**3. Run the supernode in the background (Detached Mode)**: If you prefer to run the supernode in the background, add the `-d` flag to the command:
 
 ```sh
 docker compose up -d
 ```
 
-### Stopping a Supernode
+### Stopping a supernode
 To shut down the supernode while retaining all volumes (so it won't need to synchronize from the genesis block again upon restart), use the following command:
 ```sh
 docker compose down
 ```
 
-### Removing a Supernode
+### Removing a supernode
 To completely remove the supernode, including all volumes used by each container, execute the following commands:
 
 **1. Stop and remove containers along with volumes**:
@@ -132,13 +132,13 @@ docker compose down -v
 rm -f .env
 ```
 
-### Updating a Supernode
+### Updating a supernode
 To update the simple-mxc-supernode Docker images, use the following command:
 ```sh
 docker compose pull
 ```
 
-### Viewing the Supernode's Logs
+### Viewing the supernode's Logs
 To monitor and view logs from the Docker containers, use the following commands:
 
 **1. View all logs**:
@@ -154,7 +154,7 @@ docker compose logs -f mxc_client_prover_relayer
 docker compose logs -f l2_execution_engine
 ```
 
-### Viewing Live Data Streams of Your Running Containers
+### View live data streams of your running containers
 To see the CPU and memory usage percentage, as well as the resource consumption of your machine, use the following command:
 
 ```sh
@@ -165,7 +165,7 @@ For displaying statistics for all containers, add the prefix `-a` :
 docker stats -a
 ```
 
-### View the Supernode's Status Dashboard
+### View the supernode's status dashboard
 
 To view the Supernode's Status Dashboard, which utilizes Grafana with a Prometheus datasource, follow these steps:
 
@@ -174,11 +174,11 @@ Open your web browser and navigate to the following URL:
 ```
 http://localhost:3000/d/L2ExecutionEngine/l2-execution-engine-overview?orgId=1&refresh=10s
 ```
-**2. Dashboard Details**:
+**2. Dashboard details**:
 - This URL points directly to the Grafana dashboard designed for monitoring the L2 execution engine's real-time status.
 - It uses Prometheus as the datasource, providing comprehensive insights into the performance and metrics of your supernode.
 
-**3. Monitor in Real Time**:
+**3. Monitor in real time**:
 
 The dashboard will update automatically every 10 seconds `(refresh=10s parameter in the URL)`.
 You can customize the dashboard views and metrics as needed using Grafana's features.

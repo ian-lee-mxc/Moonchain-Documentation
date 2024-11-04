@@ -4,18 +4,18 @@ sidebar_position: 11
 
 # Moonchain Stablecoin
 
-MXC will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day. 
+Moonchain will be the largest Layer-3 IoT solution on Arbitrum ecosystem, bringing tremendous real-world items to NFT world and data to the blockchain. Undoubtedly each real-world item and each piece of data has its own value, and this kind of value is not from pure financial speculations, the value comes from real economy that serves our food, sports, transportation every day. 
 
-MXC is going to leverage the real-world economy to build the first stable coin backed by items like Gin, Bike sensors, Nike shoes etc. Along with the tokens created on zkEVM like Ride token, Park token and MXC, BTC, the MXC stable coin has a basket ranging from NFT to tokens to back the stable coin from the real-world economy.
-
-
-XSD, in conjunction with MXC and ISO projects, aims to empower individuals and companies to generate and circulate XSD within their unique economic systems, supporting their specific business requirements. The objective is to transform the existing financial landscape, where the majority of stable coins and fiat currencies rely on the backing of US treasury bonds. With a staggering 30 trillion USD in US treasury bonds and only 4 trillion in gold and other reserves held by the US Treasury and Federal Reserve, this initiative seeks to establish a more decentralized and diverse foundation for global financial systems.
+Moonchain is going to leverage the real-world economy to build the first stable coin backed by items like Gin, Bike sensors, Nike shoes etc. Along with the tokens created on zkEVM like Ride token, Park token and MXC. XSD - The Moonchain stable coin has a basket ranging from NFT to tokens to back the stable coin from the real-world economy.
 
 
+XSD, in conjunction with Moonchain and ISO projects, aims to empower individuals and companies to generate and circulate XSD within their unique economic systems, supporting their specific business requirements. The objective is to transform the existing financial landscape, where the majority of stable coins and fiat currencies rely on the backing of US treasury bonds. With a staggering 30 trillion USD in US treasury bonds and only 4 trillion in gold and other reserves held by the US Treasury and Federal Reserve, this initiative seeks to establish a more decentralized and diverse foundation for global financial systems.
 
-As IoT [Swap](https://swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use MXC network and ISO projects to build their own data economy. These Ride and Park token can be swapped in MXC Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
 
-MXProtocol design and its ecosystem both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/DG/Ride tokens.
+
+As IoT [Swap](https://swap.mxc.com/) shows, the IoT tokens like Ride token would be the major applications that use Moonchain network and ISO projects to build their own data economy. These Ride and Park token can be swapped in Moonchain Swap conveniently, through XSD trading pair. XSD will be the first IoT stable coin that are backed by real-world assets and data values, meanwhile serving for the digital and real-world economy.
+
+Moonchain's design and its ecosystem both are aimed for validating the XSD stable coin，which is pegged to US dollars at start in 1:2 manner. Along with the NFC, LoraWAN and Satellite technologies, users are able to verify and validate the value of XSD are backed by collateral like Gin 1689 NFTs, and MXC/DG/Ride tokens.
 
 IoT NFTs need to reach a minimal IoT NFT transactions, in the initial roll-out is three transactions in order to become a collateral. This is to raise the attacking cost to enter the XSD mint basket.
 
@@ -56,9 +56,9 @@ In this case, the users will try to redeem one Gin 1689 NFT to get 100USD worth 
 
 
 ## Insurance
-The goal of XSD and MXC is to enable every person/company to create XSD and circulate in their own economy to support their business logic, eventually it is to change the current situation that all the stable coins and Fiat currencies are backed by US treasury bonds, while US treasury bonds are like 30 trillion USD and US treasury and Fed Reserve only got 4 trillion gold or other reserves.
+The goal of Moonchain and XSD is to enable every person/company to create XSD and circulate in their own economy to support their business logic, eventually it is to change the current situation that all the stable coins and Fiat currencies are backed by US treasury bonds, while US treasury bonds are like 30 trillion USD and US treasury and Fed Reserve only got 4 trillion gold or other reserves.
 
-We need to peg this world better with the assets created by people and used by people. Also we need to deal with systematic risks if the de-peg happens. Central banks proposes to print more money to solve the problem. MXC DAO proposes that we should add a 10% insurance on the top of the every XSD mint to deal with the systematic risks.
+We need to peg this world better with the assets created by people and used by people. Also we need to deal with systematic risks if the de-peg happens. Central banks proposes to print more money to solve the problem. Moonchain DAO proposes that we should add a 10% insurance on the top of the every XSD mint to deal with the systematic risks.
 
 This 10% insurance can be paid every year to make sure even if the depeg happened like the collateral is gone or the overall overall collateral price is reduced due to a certain black swan event.
 
@@ -66,7 +66,7 @@ The insurance should be an option at the end of the minting process.
 
 ## XSD exchange rate with USD
 
-When the XSD economy is getting bigger and bigger, the MXC DAO should see the 1:2 exchange rate will fluctuate due to the demand of XSD is higher than USD and people lose trust in USD. 
+When the XSD economy is getting bigger and bigger, the Moonchain DAO should see the 1:2 exchange rate will fluctuate due to the demand of XSD is higher than USD and people lose trust in USD. 
 
 This is due to the volatility of the Fed Reserve to create more balance sheet and run-off the balance sheet without any anchor, XSD holder should aim for a certain development that the unit price of the collateral like watch, shoes, wines are defined by the unit of a XSD and no longer will be a USD.
 
@@ -77,7 +77,7 @@ Every time the XSD is mint will need to follow the most updated conversion rate 
 :::
 
 ## Lending use cases
-It is expected that people will borrow XSD and lend XSD to generate stable APY, there are a lot of similar lending protocols like AAVE will move to MXC zkEVM to enable XSD economy active.
+It is expected that people will borrow XSD and lend XSD to generate stable APY, there are a lot of similar lending protocols like AAVE will move to Moonchain zkEVM to enable XSD economy active.
 
 ## Use case of XSD
 
@@ -93,9 +93,9 @@ This chapter introduces XSD minting: a peer-to-peer perpetual lending protocol t
 
 XSD mint matches users who want to borrow against their real-world collateral with whatever lender is willing to offer the most competitive rate, using a sophisticated off-chain offer protocol.
 
-By default, XSD mint loans have fixed rates **(0% interest rate)** and never expire. Borrowers can repay at any time, while XSD mint won't exit. Howevery, MXC DAO can trigger a referedum to exit any positions by triggering a Dutch auction to find a new lender at a new rate. If that auction fails, the borrower is liquidated and the XSD mint takes possession of the collateral.
+By default, XSD mint loans have fixed rates **(0% interest rate)** and never expire. Borrowers can repay at any time, while XSD mint won't exit. Howevery, Moonchain DAO can trigger a referedum to exit any positions by triggering a Dutch auction to find a new lender at a new rate. If that auction fails, the borrower is liquidated and the XSD mint takes possession of the collateral.
 
-XSD mint has been implemented by MXC Core Contributors. In their implementation, some protocol parameters, such as protocol fees, are controlled by MXC DAO governance.
+XSD mint has been implemented by Moonchain Core Contributors. In their implementation, some protocol parameters, such as protocol fees, are controlled by Moonchain DAO governance.
 
 ## No Oracles
 
@@ -156,7 +156,7 @@ Once the auction hits some defined max rate (like 1000%) without letting XSD min
 
 Also the insurance in this case should repay the difference amounts to the borrower if the liquidation is faield.
 
-Except for MXC DAO referendum can trigger a liquidation event, borrower usually won't repay if the interest rate is 0% or even in some cases can be below 0%.
+Except for Moonchain DAO referendum can trigger a liquidation event, borrower usually won't repay if the interest rate is 0% or even in some cases can be below 0%.
 
 
 ## Optimistic Auctions
@@ -178,7 +178,7 @@ This lets us drop the concept of expiration times and loan periods. By default, 
 
 A borrower can repay at any time. If a borrower wants to change the amount they have borrowed or get a better interest rate, they can atomically take out a new loan against the collateral and use the new principal to repay the old loan.
 
-If a referendum in MXC DAO wants to get out of a certain XSD mint loan, they can trigger a refinancing auction, as discussed above. All timelines and deadlines during refinancing events can be defined relative to the time the refinancing was initiated.
+If a referendum in Moonchain DAO wants to get out of a certain XSD mint loan, they can trigger a refinancing auction, as discussed above. All timelines and deadlines during refinancing events can be defined relative to the time the refinancing was initiated.
 
 Alternatively, if the interest rate is adjusted by the XSD mint, the current  lend can skip the auction by submitting the other offer to the vault to get out of their loan.
 
@@ -198,4 +198,4 @@ XSD mint basket: The selection of the Sensor Tokens and IoT NFTs that can use to
 
 Minimal IoT NFT transactions: The minimal trading transactions that an IoT NFT can be used as a collateral.
 
-In MXC's implementation of XSD, after a 180-day waiting period, these parameters can be managed by MXC governance to ensure optimal performance and adapt to changing market conditions in a decentralized way.
+In MXC's implementation of XSD, after a 180-day waiting period, these parameters can be managed by Moonchain governance to ensure optimal performance and adapt to changing market conditions in a decentralized way.
