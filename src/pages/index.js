@@ -36,7 +36,7 @@ function Home() {
   return (
     <Layout
       title={''}
-      description="The fastest, hyper-scalable DePIN native Layer 3 on Ethereum <head />"
+      description="We're helping Ethereum implement Beam Chain over the next 5 years and utilizing BeamSnarks as the main algorithm to simplify and redesign Ethereum's consensus layer. <head />"
     >
       <HomepageHeader />
     </Layout>
