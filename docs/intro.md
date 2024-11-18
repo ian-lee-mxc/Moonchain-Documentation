@@ -4,22 +4,22 @@ sidebar_position: 1
 
 # A Brief Introduction
 
-Welcome to the official developer documentation of Moonchain. Dive into the world of decentralized solutions with our groundbreaking Type 1 zk-EVM and zk-Rollups, built on top of Arbitrum and harnessing the power of Taiko ZK.
+Welcome to the official developer documentation of Moonchain. We're helping Ethereum implement Beam Chain over the next 5 years and utilizing BeamSnarks as the main algorithm to simplify and redesign Ethereum's consensus layer.
 
 :::tip WIP
 This documentation is still a work in progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might be reorganized later to achieve a better flow.
 
-If you are interested in learning about the basics of zero-knowledge proofs, EVM, and other fundamental concepts behind our Layer 3 zkEVM, check out Moonchain on [Twitter](https://twitter.com/Moonchain_com).
+If you are interested in learning about the basics of zero-knowledge proofs, EVM, and other fundamental concepts behind our Beam Chain, check out Moonchain on [Twitter](https://twitter.com/Moonchain_com).
 :::
 
 ## 🌔 Getting Started
 
 <a href="/docs/Moonchain-Design/Chains-and-Testnets" class="big-button">Configure Your Wallet to Moonchain</a>
 <a href="/docs/Resources/RPC-Configuration" class="big-button">Check RPC endpoints</a>
-<a href="/docs/Testnet-Tutorials/Run-Moonchain-Supernode" class="big-button">Run a L3 validator node</a>
+<a href="/docs/Testnet-Tutorials/Run-Moonchain-Supernode" class="big-button">Run a Beam Chain validator node</a>
 <a href="/docs/Moonchain-Design/Hexagons" class="big-button">DePIN hexagon</a>
 <a href="/docs/Testnet-Tutorials/Build-A-Dapp" class="big-button">Build a Dapp on Moonchain</a>
-<a href="/docs/Mainnet-Tutorials/Using-The-L3-Bridge" class="big-button">L3 Bridge</a>
+<a href="/docs/Mainnet-Tutorials/Using-The-L3-Bridge" class="big-button">Beam Chain Bridge</a>
 
 ## 📖Introducing Moonchain zkEVM
 
@@ -35,7 +35,7 @@ Welcome to the cutting-edge world of Moonchain, engineered to serve as the Ether
 
 At Moonchain, we've developed a suite of native decentralized applications (dApps) to enhance and support your projects. When you deploy your application on Moonchain, you can directly use our in-house dApps to extend utility, functionality and streamline integration. These include:
 
-- **L1-L3 Bridge**: Seamlessly connect to different blockchain layers, facilitating smooth and efficient asset transfers.
+- **L1-Beam Chain Bridge**: Seamlessly connect to different blockchain layers, facilitating smooth and efficient asset transfers.
 - **NFT Marketplace**: Create, buy, sell and trde NFTs with ease on our robust marketplace platform.
 - **Swapping dApp**: Exchange token pairs effortlessly using our intuitive swapping application.
 - **Moonchain Name Service (MNS)**: Create custom, easy-to-remember names to simplify transactions across blockchains, unify your identity in the Web3 ecosystem, and manage your decentralized websites.
