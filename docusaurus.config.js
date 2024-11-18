@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Moonchain zkEVM SNARKification',
-  tagline: 'We are helping Ethereum implement Beam Chain over the next 5 years and utilizing BeamSnarks as the main algorithm to simplify and redesign Ethereum's consensus layer. | Shooting for the Moon 🌙',
+  tagline: 'We are helping Ethereum implement Beam Chain over the next 5 years and utilizing BeamSnarks as the main algorithm to simplify and redesign Ethereum consensus layer. | Shooting for the Moon 🌙',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
