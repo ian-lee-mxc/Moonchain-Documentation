@@ -44,12 +44,6 @@ sidebar_position: 3
 
 ## ERC-20 token contracts
 
-**Arbitrum One**
-
-| Name      | Symbol | Contract address                                                                                                   |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------|
-| MXC Token | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
-
 **MXC Mainnet**
 
 | Name          | Symbol | Contract address                                                                                                          |
@@ -58,7 +52,31 @@ sidebar_position: 3
 
 
 
-## Geneva Testnet Address
+## Geneva Testnet address
+
+**Addresses on Arbitrum One**
+
+| Name      | Symbol | Contract address                                                                                                   |
+|-----------|--------|--------------------------------------------------------------------------------------------------------------------|
+| MXC Token | MXC    | [0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4](https://sepolia.arbiscan.io/token/0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4) |
+| MXCL1| | [0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B](https://sepolia.arbiscan.io/address/0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B)|
+| Automated Dcap Attestation |  | [0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df](https://sepolia.arbiscan.io/address/0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df) |
+| Bridge| | [0x730Ae731eDCfDB31a22ecA2B72242dC072d36336](https://sepolia.arbiscan.io/address/0x730Ae731eDCfDB31a22ecA2B72242dC072d36336)|
+| ERC-1155 Vault |  | [0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262](https://sepolia.arbiscan.io/address/0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262) |
+| ERC-20 Vault | | [0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748](https://sepolia.arbiscan.io/address/0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748)|
+| ERC-721 Vault |  | [0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4](https://sepolia.arbiscan.io/address/0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4) |
+| ETH MXC Price Aggregator | | [0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28](https://sepolia.arbiscan.io/address/0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28)|
+| Guardian Prover |  | [0xD3343e8162BB51b52884B130439166e3DCe8851F](https://sepolia.arbiscan.io/address/0xD3343e8162BB51b52884B130439166e3DCe8851F) |
+| Guardian Prover Minority | | [0xa51C5DA59aF39a7C18134a0CF497C70157C49476](https://sepolia.arbiscan.io/address/0xa51C5DA59aF39a7C18134a0CF497C70157C49476)|
+| Prover Set |  | [0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB](https://sepolia.arbiscan.io/address/0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB) |
+| Rollup Address Manager | | [0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9](https://sepolia.arbiscan.io/address/0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9)|
+| Shared Address Manager | | [0x5E453d54F7783446bb206B261A4bffb24859512f](https://sepolia.arbiscan.io/address/0x5E453d54F7783446bb206B261A4bffb24859512f)|
+| Signal Service  | | [0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1](https://sepolia.arbiscan.io/address/0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1)|
+| Tier SGX  | | [0x7FF12AC8385e67970eBB8aEAc6c42c133E690649](https://sepolia.arbiscan.io/address/0x7FF12AC8385e67970eBB8aEAc6c42c133E690649)|
+| Tier ZkEVM RISC0  | | [0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6](https://sepolia.arbiscan.io/address/0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6)|
+| Tier ZkEVM SP1  | | [0xf08B17b181B3452d683E0Ff64268686d8116EA61](https://sepolia.arbiscan.io/address/0xf08B17b181B3452d683E0Ff64268686d8116EA61)|
+
+**Addresses on Geneva Testnet**
 
 | Contract Name | Contract Address | TAG | DEPLOYER |
 |----------------|-------------------|------|----------|
