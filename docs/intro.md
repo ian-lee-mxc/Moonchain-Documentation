@@ -6,6 +6,10 @@ sidebar_position: 1
 
 Welcome to the official developer documentation of Moonchain. We're helping Ethereum implement Beam Chain over the next 5 years and utilizing BeamSnarks as the main algorithm to simplify and redesign Ethereum's consensus layer.
 
+:::tip Beam Chain
+Ethereum’s 1st Beam Chain Sublayer. We're helping Ethereum deploy Beam Chain using BeamSnarks, enhancing consensus for 1M hashes/sec in DePIN zkVMs.
+:::
+
 :::tip WIP
 This documentation is still a work in progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might be reorganized later to achieve a better flow.
 
