@@ -32,15 +32,23 @@ An L1 contract on the Arbitrum chain that manages the entire staking process.
 
 
 
-## Staking
+## Staking (miner owner)
 
-A participant needs one miner (SGX prover) and a certain amount of MXC staked in the Moonchain L1 staking contract. After the staking period, the participant can claim a reward. This staking transaction must be performed using their own wallet, which also serves as their identity.
+A participant needs one miner (SGX prover) and a certain amount of MXC staked in the Moonchain L1 staking contract. After the staking period, the participant can claim a reward. 
 
 **[!!Request for Comment:]** A participant using two or more miners with a single wallet will not affect the reward. The advantage of having additional miners is that they can act as backups—if one miner goes down, the others can continue operating, preventing penalties.
 
 
 
-## Staking Period
+## Staking (without miner)
+
+For those who wish to participate without owning a miner, they can delegate their stake to a miner owner. This delegation results in the reward being split, with 20% going to the miner owner and 80% going to the staking participant.
+
+However, if a penalty is incurred, it will affect both the staking participant and the miner owner. Therefore, it is essential to choose a reliable miner owner when participating.
+
+
+
+## Staking Period (a Epoch)
 
 A staking period, known as an epoch, lasts for seven days and aligns with every Thursday at 00:00 UTC. Rewards are calculated based on the number of epochs the amount has been staked.
 
@@ -50,13 +58,26 @@ A staking period, known as an epoch, lasts for seven days and aligns with every 
 
 ## Penalty
 
-When the miner reach either one of the following condition, a penalty will apply to the participant.
+#### Reward Reduction
 
-- The online time is not reach 85% for a staking period.
+If a miner's performance falls short of expectations, a penalty will be imposed on the associated participants—namely, the owner and those who have staked on the owner. As a result, the reward for one epoch will be reduced.
 
-- Failed for 3 consequence SGX generation job.
+Penalty Condition:
 
-  **[!! To be change]** As observed, the raiko will failed for unknown reason and keep in a unknown state. Need further study to prevent this first before applying this fro penalty.
+- The online time does not reach 85% during an epoch.
+
+
+
+#### Slash of staked amount
+
+When a miner performing actions that harm the network, the staked amount linked to the miner will be slash. 
+
+List of harmful actions:
+
+- Submission of an Invalid Proof.
+  A miner submitting an invalid proof, which will be rejected by the L1 contract.
+- Failure of Three Consecutive SGX Generation Jobs.
+  **[!! To be changed]** Preliminary observations indicate that Raiko fails for unknown reasons, leaving it in an indeterminate state. Further investigation is required to resolve this issue before this penalty are applied.
 
 
 
