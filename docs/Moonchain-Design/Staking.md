@@ -52,19 +52,21 @@ However, if a penalty is incurred, it will affect both the staking participant a
 
 A staking period, known as an epoch, lasts for seven days and aligns with every Thursday at 00:00 UTC. Rewards are calculated based on the number of epochs the amount has been staked.
 
-![Staking_Epoch](./Staking_Epoch.png)
+![Staking_EpochTimeline](./Staking_EpochTimeline.png)
 
 
 
 ## Penalty
 
+![Staking_PenaltyTimeline](./Staking_PenaltyTimeline.png)
+
 #### Reward Reduction
 
 If a miner's performance falls short of expectations, a penalty will be imposed on the associated participants—namely, the owner and those who have staked on the owner. As a result, the reward for one epoch will be reduced.
 
-Penalty Condition:
+Penalty Condition (at the time of checking):
 
-- The online time does not reach 85% during an epoch.
+- The online time has not reached 85% in the past seven days.
 
 
 
@@ -83,7 +85,7 @@ List of harmful actions:
 
 ## Reward
 
-Rewards are calculated based on a 10% APR applied to the total staked amount of MXC. They are then distributed according to each participant's staking weight and total pledge duration (in number of epoch).
+Rewards are calculated using an approximate 10% annual percentage rate (APR) applied to the total staked MXC. They are then distributed based on each participant's staking weight and overall pledge duration (measured in epochs).
 
 
 
