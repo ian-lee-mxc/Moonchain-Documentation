@@ -217,9 +217,15 @@ Example response (miner verified):
 
 
 
-#### POST `/app/minerStatus/<INSTANCE_ID>`
+#### GET `/app/minerStatus/<INSTANCE_ID>`
 
 Get the status of a miner.
+
+Auth header:
+
+```
+"Authorization" : "Bearer <APP_TOKEN>"
+```
 
 Example response:
 
@@ -228,9 +234,49 @@ Example response:
   "ret": 0,
   "message": "",
   "result": {
-    "online": true,
-    "lastSeen": "2018-12-10T13:45:00.000Z",
-    ...
+    "lastPing": "2025-02-10T15:01:34.000Z",
+    "online": {"value": 1, "timestamp": "2025-02-10T15:00:00Z"},
+    "proofReceived": {"value": 22, "timestamp": "2025-02-10T15:00:00Z"},
+    "proofRejected": {"value": 15, "timestamp": "2025-02-10T15:00:00Z"}
+  }
+}
+```
+
+*"online", "proofReceived", "proofRejected" are statistic result of past 1 hour data.*
+
+
+
+#### GET `/app/minerStatistic/<INSTANCE_ID>/<ITEM>/[daily]`
+
+Retrieve a miner's statistical data. The `ITEM` parameter can be one of the following: `"online"`, `"proofReceived"`, or `"proofRejected"`. Additionally, the optional `daily` parameter returns data aggregated on a daily basis; if omitted, the data will be aggregated on a 7  days (1 epoch) basis.
+
+Auth header:
+
+```
+"Authorization" : "Bearer <APP_TOKEN>"
+```
+
+Example response:
+
+```
+{
+  "ret": 0,
+  "message": "",
+  "result": {
+    "item": "proofReceived",
+    "data": [
+      {"value": 0, "timestamp": "2024-12-05T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-12T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-19T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-26T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-02T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-09T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-16T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-23T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-30T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-02-06T00:00:00Z"},
+      {"value": 114,"timestamp": "2025-02-13T00:00:00Z"}
+    ]
   }
 }
 ```
