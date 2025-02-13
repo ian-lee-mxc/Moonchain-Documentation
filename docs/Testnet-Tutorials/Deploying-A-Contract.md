@@ -42,12 +42,11 @@ forge create --rpc-url https://geneva-rpc.moonchain.com --private-key YOUR_PRIVA
 
 :::info[INFO]
 If you encounter an error --> `ERROR: (Code: -32000, message: contract creation code storage out of gas, data: None)`, consider deploying using [Remix IDE](https://remix.ethereum.org/).
-
-
-### pending state is not available
-
-Due to the removal of the pending block tag in Taiko RPC ([#6076](https://github.com/NomicFoundation/hardhat/issues/6076#issuecomment-2565779351)), if you deploy using Hardhat, you will encounter the issue `pending state is not available`. Using Foundry can avoid this problem, or you can migrate your Hardhat project to [Harsta](https://github.com/hairyf/harsta), harsta which will continue to support Taiko.
 :::
 
 ### View Your Contract
 Paste the address from the output into the [Moonchain Geneva Block Explorer](https://geneva-explorer.moonchain.com/) and verify that the contract was deployed.
+
+### pending state is not available
+
+Due to the removal of the pending block tag in Taiko RPC ([#6076](https://github.com/NomicFoundation/hardhat/issues/6076#issuecomment-2565779351)), if you deploy using Hardhat, you will encounter the issue `pending state is not available`. Using Foundry can avoid this problem, or you can migrate your Hardhat project to [Harsta](https://github.com/hairyf/harsta), harsta which will continue to support Taiko.
