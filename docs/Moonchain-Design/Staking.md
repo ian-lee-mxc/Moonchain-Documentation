@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-# Moonchain Staking
+# Moonchain ZK Lite Paper
 
 
 
