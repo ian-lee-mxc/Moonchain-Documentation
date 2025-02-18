@@ -32,37 +32,60 @@ An L1 contract on the Arbitrum chain that manages the entire staking process.
 
 
 
-## Staking
+## Staking (miner owner)
 
-A participant needs one miner (SGX prover) and a certain amount of MXC staked in the Moonchain L1 staking contract. After the staking period, the participant can claim a reward. This staking transaction must be performed using their own wallet, which also serves as their identity.
+A participant needs one miner (SGX prover) and a certain amount of MXC staked in the Moonchain L1 staking contract. After the staking period, the participant can claim a reward. 
 
 **[!!Request for Comment:]** A participant using two or more miners with a single wallet will not affect the reward. The advantage of having additional miners is that they can act as backups—if one miner goes down, the others can continue operating, preventing penalties.
 
 
 
-## Staking Period
+## Staking (without miner)
+
+For those who wish to participate without owning a miner, they can delegate their stake to a miner owner. This delegation results in the reward being split, with 20% going to the miner owner and 80% going to the staking participant.
+
+However, if a penalty is incurred, it will affect both the staking participant and the miner owner. Therefore, it is essential to choose a reliable miner owner when participating.
+
+
+
+## Staking Period (a Epoch)
 
 A staking period, known as an epoch, lasts for seven days and aligns with every Thursday at 00:00 UTC. Rewards are calculated based on the number of epochs the amount has been staked.
 
-![Staking_Epoch](./Staking_Epoch.png)
+![Staking_EpochTimeline](./Staking_EpochTimeline.png)
 
 
 
 ## Penalty
 
-When the miner reach either one of the following condition, a penalty will apply to the participant.
+![Staking_PenaltyTimeline](./Staking_PenaltyTimeline.png)
 
-- The online time is not reach 85% for a staking period.
+#### Reward Reduction
 
-- Failed for 3 consequence SGX generation job.
+If a miner's performance falls short of expectations, a penalty will be imposed on the associated participants—namely, the owner and those who have staked on the owner. As a result, the reward for one epoch will be reduced.
 
-  **[!! To be change]** As observed, the raiko will failed for unknown reason and keep in a unknown state. Need further study to prevent this first before applying this fro penalty.
+Penalty Condition (at the time of checking):
+
+- The online time has not reached 85% in the past seven days.
+
+
+
+#### Slash of staked amount
+
+When a miner performing actions that harm the network, the staked amount linked to the miner will be slash. 
+
+List of harmful actions:
+
+- Submission of an Invalid Proof.
+  A miner submitting an invalid proof, which will be rejected by the L1 contract.
+- Failure of Three Consecutive SGX Generation Jobs.
+  **[!! To be changed]** Preliminary observations indicate that Raiko fails for unknown reasons, leaving it in an indeterminate state. Further investigation is required to resolve this issue before this penalty are applied.
 
 
 
 ## Reward
 
-Rewards are calculated based on a 10% APR applied to the total staked amount of MXC. They are then distributed according to each participant's staking weight and total pledge duration (in number of epoch).
+Rewards are calculated using an approximate 10% annual percentage rate (APR) applied to the total staked MXC. They are then distributed based on each participant's staking weight and overall pledge duration (measured in epochs).
 
 
 
@@ -194,9 +217,15 @@ Example response (miner verified):
 
 
 
-#### POST `/app/minerStatus/<INSTANCE_ID>`
+#### GET `/app/minerStatus/<INSTANCE_ID>`
 
 Get the status of a miner.
+
+Auth header:
+
+```
+"Authorization" : "Bearer <APP_TOKEN>"
+```
 
 Example response:
 
@@ -205,9 +234,49 @@ Example response:
   "ret": 0,
   "message": "",
   "result": {
-    "online": true,
-    "lastSeen": "2018-12-10T13:45:00.000Z",
-    ...
+    "lastPing": "2025-02-10T15:01:34.000Z",
+    "online": {"value": 1, "timestamp": "2025-02-10T15:00:00Z"},
+    "proofReceived": {"value": 22, "timestamp": "2025-02-10T15:00:00Z"},
+    "proofRejected": {"value": 15, "timestamp": "2025-02-10T15:00:00Z"}
+  }
+}
+```
+
+*"online", "proofReceived", "proofRejected" are statistic result of past 1 hour data.*
+
+
+
+#### GET `/app/minerStatistic/<INSTANCE_ID>/<ITEM>/[daily]`
+
+Retrieve a miner's statistical data. The `ITEM` parameter can be one of the following: `"online"`, `"proofReceived"`, or `"proofRejected"`. Additionally, the optional `daily` parameter returns data aggregated on a daily basis; if omitted, the data will be aggregated on a 7  days (1 epoch) basis.
+
+Auth header:
+
+```
+"Authorization" : "Bearer <APP_TOKEN>"
+```
+
+Example response:
+
+```
+{
+  "ret": 0,
+  "message": "",
+  "result": {
+    "item": "proofReceived",
+    "data": [
+      {"value": 0, "timestamp": "2024-12-05T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-12T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-19T00:00:00Z"},
+      {"value": 0, "timestamp": "2024-12-26T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-02T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-09T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-16T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-23T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-01-30T00:00:00Z"},
+      {"value": 0, "timestamp": "2025-02-06T00:00:00Z"},
+      {"value": 114,"timestamp": "2025-02-13T00:00:00Z"}
+    ]
   }
 }
 ```
