@@ -8,7 +8,7 @@ sidebar_position: 12
 
 ## Block diagram
 
-![Staking_BlockDiagram](./Staking_BlockDiagram.png)
+![zk_BlockDiagram](./zk_BlockDiagram.png)
 
 ### APP
 
@@ -52,13 +52,13 @@ However, if a penalty is incurred, it will affect both the staking participant a
 
 A staking period, known as an epoch, lasts for seven days and aligns with every Thursday at 00:00 UTC. Rewards are calculated based on the number of epochs the amount has been staked.
 
-![Staking_EpochTimeline](./Staking_EpochTimeline.png)
+![zk_EpochTimeline](./zk_EpochTimeline.png)
 
 
 
 ## Penalty
 
-![Staking_PenaltyTimeline](./Staking_PenaltyTimeline.png)
+![zk_PenaltyTimeline](./zk_PenaltyTimeline.png)
 
 #### Reward Reduction
 
