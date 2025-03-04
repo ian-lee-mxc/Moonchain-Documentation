@@ -4,79 +4,95 @@ sidebar_position: 3
 
 # Contract Addresses
 
-## ERC-20 token contracts
 
-**Arbitrum One L2**
 
-| Name         | Symbol | Contract address                                                                                                   |
-|--------------|--------|--------------------------------------------------------------------------------------------------------------------|
-| MXC Token    | MXC    | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/token/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
-| L1 MXC Token | MXC    | [0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6](https://arbiscan.io/token/0x91b468Fe3dce581D7a6cFE34189F1314b6862eD6) |
+## Mainnet Layer 1 contracts
 
-**Ethereum Mainnet L1**
+**Ethereum Mainnet**
 
-| Name      | Symbol | Contract address                                                                                                    |
-|-----------|--------|---------------------------------------------------------------------------------------------------------------------|
-| MXC Token | MXC    | [0x5ca381bbfb58f0092df149bd3d243b08b9a8386e](https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e) |
+| Contract name | Contract address                                             |
+| ------------- | ------------------------------------------------------------ |
+| MXC Token     | [0x5ca381bbfb58f0092df149bd3d243b08b9a8386e](https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e) |
 
-## Protocol contracts
+
+
+## Mainnet Layer 2 contracts
 
 **Arbitrum One**
 
-| Contract name  | Contract address                                                                                                            |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| AddressManager | [0x931A8fFCcdA64dC441bcca81Bd65Dc0C3d42Af74](https://arbiscan.io/address/0x931A8fFCcdA64dC441bcca81Bd65Dc0C3d42Af74) |
-| Bridge         | [0xA9c5519a7c1d85fB6d6695853787964a0D3d49A6](https://arbiscan.io/address/0xA9c5519a7c1d85fB6d6695853787964a0D3d49A6) |
-| SignalService  | [0xB612eb073ebc8638b8E445D7F15f02400e1d99d8](https://arbiscan.io/address/0xB612eb073ebc8638b8E445D7F15f02400e1d99d8) |
-| MXCL1          | [0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a](https://arbiscan.io/address/0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a) |
-| TokenVault     | [0xC31a6C0C1087BBB6E6660F27014aD1321591c641](https://arbiscan.io/address/0xC31a6C0C1087BBB6E6660F27014aD1321591c641) |
-
-**MXC Mainnet**
-
-| Contract name | Contract address                                                                                                          |
-|---------------|---------------------------------------------------------------------------------------------------------------------------|
-| Bridge        | [0x1000777700000000000000000000000000000004](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000004) |
-| EtherVault    | [0x1000777700000000000000000000000000000003](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000003) |
-| SignalService | [0x1000777700000000000000000000000000000007](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000007) |
-| MXCL2         | [0x1000777700000000000000000000000000000001](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000001) |
-| TokenVault    | [0x1000777700000000000000000000000000000002](https://explorer.mxc.com/address/0x1000777700000000000000000000000000000002) |
-| LPWAN         | [0x2000777700000000000000000000000000000001](https://explorer.mxc.com/address/0x2000777700000000000000000000000000000001) |
-
-## ERC-20 token contracts
-
-**MXC Mainnet**
-
-| Name          | Symbol | Contract address                                                                                                          |
-|---------------|--------|---------------------------------------------------------------------------------------------------------------------------|
-| Wrapped Ether | ETH    | [0x35CD46846BD9946f3EFF35B672E0d516aF51C979](https://explorer.mxc.com/address/0x35CD46846BD9946f3EFF35B672E0d516aF51C979) |
+| Contract name             | Contract address                                             |
+| ------------------------- | ------------------------------------------------------------ |
+| Automata Dcap Attestation | [0x478932D33a02A14C354c18055AFdFc7fb04E1cA5](https://arbiscan.io/address/0x478932D33a02A14C354c18055AFdFc7fb04E1cA5) |
+| Bridge                    | [0x4C3924E619E2eE83cFD565c1432cb621ca8af7A0](https://arbiscan.io/address/0x4C3924E619E2eE83cFD565c1432cb621ca8af7A0) |
+| ERC1155 Vault             | [0xD6F6B23Cd1bfD48ce2ce8b82e527280aa4b53b14](https://arbiscan.io/address/0xD6F6B23Cd1bfD48ce2ce8b82e527280aa4b53b14) |
+| ERC20 Vault               | [0x3160284BC2F4d7F5b170C70a0Ee0bC5333c7F39e](https://arbiscan.io/address/0x3160284BC2F4d7F5b170C70a0Ee0bC5333c7F39e) |
+| ERC721 Vault              | [0x844C4871Fe509C7C1fe26673458533DEB96025f8](https://arbiscan.io/address/0x844C4871Fe509C7C1fe26673458533DEB96025f8) |
+| Eth/Mxc Price Aggregator  | [0x7F3C0E4f215dC8Caa30E2072b6e47f61d8a57811](https://arbiscan.io/address/0x7F3C0E4f215dC8Caa30E2072b6e47f61d8a57811) |
+| Guardian Prover           | [0xCD1e1671Ce6eb304c2D30ED77885Be1b0BF96aD6](https://arbiscan.io/address/0xCD1e1671Ce6eb304c2D30ED77885Be1b0BF96aD6) |
+| Guardian Prover Minority  | [0xb6f0d291B118f9F562d4Db388351Faf62A99c921](https://arbiscan.io/address/0xb6f0d291B118f9F562d4Db388351Faf62A99c921) |
+| Prover Set                | [0x817bdF595d88e5b0165993E4a6AF04F092584Fb7](https://arbiscan.io/address/0x817bdF595d88e5b0165993E4a6AF04F092584Fb7) |
+| Rollup Address Manager    | [0xF5146A105d14BDA41B866CaD0f96b8Ce3A4F19dF](https://arbiscan.io/address/0xF5146A105d14BDA41B866CaD0f96b8Ce3A4F19dF) |
+| Shared Address Manager    | [0xE7623Fc10eCDA172A023D64f4cebC1682F84BB26](https://arbiscan.io/address/0xE7623Fc10eCDA172A023D64f4cebC1682F84BB26) |
+| SignalService             | [0xB31EBab3Ac38B9B021CCe679B4059b790413Fa4E](https://arbiscan.io/address/0xB31EBab3Ac38B9B021CCe679B4059b790413Fa4E) |
+| Staking                   | [0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4](https://arbiscan.io/address/0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4) |
+| Tier SGX                  | [0xecdd613aB8E307F8A403fC7A00B8C609b1Ef22bE](https://arbiscan.io/address/0xecdd613aB8E307F8A403fC7A00B8C609b1Ef22bE) |
+| Tier ZKVM RISC0           | [0x4A5C01E22C60D8189419f6Ae7F6d47B1e470FC5b](https://arbiscan.io/address/0x4A5C01E22C60D8189419f6Ae7F6d47B1e470FC5b) |
+| Tier ZKVM SP1             | [0xaF7bB4d74Bdf6A44b1c6C9feD3A6606f8943064d](https://arbiscan.io/address/0xaF7bB4d74Bdf6A44b1c6C9feD3A6606f8943064d) |
+| MXC L1                    | [0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a](https://arbiscan.io/address/0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a) |
+| MXC Token                 | [0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd](https://arbiscan.io/address/0xaeDF7656fBB47c5B97dD529aC1D0e807E051f2dd) |
 
 
 
-## Geneva Testnet address
+## Mainnet Layer 3 contracts
 
-**Addresses on Arbitrum One**
+**Moonchain Mainnet**
 
-| Name      | Symbol | Contract address                                                                                                   |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------|
-| MXC Token | MXC    | [0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4](https://sepolia.arbiscan.io/token/0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4) |
-| MXCL1| | [0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B](https://sepolia.arbiscan.io/address/0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B)|
-| Automated Dcap Attestation |  | [0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df](https://sepolia.arbiscan.io/address/0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df) |
-| Bridge| | [0x730Ae731eDCfDB31a22ecA2B72242dC072d36336](https://sepolia.arbiscan.io/address/0x730Ae731eDCfDB31a22ecA2B72242dC072d36336)|
-| ERC-1155 Vault |  | [0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262](https://sepolia.arbiscan.io/address/0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262) |
-| ERC-20 Vault | | [0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748](https://sepolia.arbiscan.io/address/0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748)|
-| ERC-721 Vault |  | [0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4](https://sepolia.arbiscan.io/address/0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4) |
-| ETH MXC Price Aggregator | | [0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28](https://sepolia.arbiscan.io/address/0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28)|
-| Guardian Prover |  | [0xD3343e8162BB51b52884B130439166e3DCe8851F](https://sepolia.arbiscan.io/address/0xD3343e8162BB51b52884B130439166e3DCe8851F) |
-| Guardian Prover Minority | | [0xa51C5DA59aF39a7C18134a0CF497C70157C49476](https://sepolia.arbiscan.io/address/0xa51C5DA59aF39a7C18134a0CF497C70157C49476)|
-| Prover Set |  | [0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB](https://sepolia.arbiscan.io/address/0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB) |
-| Rollup Address Manager | | [0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9](https://sepolia.arbiscan.io/address/0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9)|
-| Shared Address Manager | | [0x5E453d54F7783446bb206B261A4bffb24859512f](https://sepolia.arbiscan.io/address/0x5E453d54F7783446bb206B261A4bffb24859512f)|
-| Signal Service  | | [0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1](https://sepolia.arbiscan.io/address/0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1)|
-| Tier SGX  | | [0x7FF12AC8385e67970eBB8aEAc6c42c133E690649](https://sepolia.arbiscan.io/address/0x7FF12AC8385e67970eBB8aEAc6c42c133E690649)|
-| Tier ZkEVM RISC0  | | [0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6](https://sepolia.arbiscan.io/address/0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6)|
-| Tier ZkEVM SP1  | | [0xf08B17b181B3452d683E0Ff64268686d8116EA61](https://sepolia.arbiscan.io/address/0xf08B17b181B3452d683E0Ff64268686d8116EA61)|
+| Contract name            | Contract address                                             |
+| ------------------------ | ------------------------------------------------------------ |
+| Bridge                   | [0x1000777700000000000000000000000000000003](https://explorer.moonchain.com/address/0x1000777700000000000000000000000000000003) |
+| SignalService            | [0x1000777700000000000000000000000000000007](https://explorer.moonchain.com/address/0x1000777700000000000000000000000000000007) |
+| MXC L2                   | [0x1000777700000000000000000000000000000001](https://explorer.moonchain.com/address/0x1000777700000000000000000000000000000001) |
+| MXC Token                | [0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE](https://explorer.moonchain.com/address/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE) |
+| Rollup Address Manager   | [0x1000777700000000000000000000000000000006](https://explorer.moonchain.com/address/0x1000777700000000000000000000000000000006) |
+| Shared Address Manager   | [0x2000777700000000000000000000000000000002](https://explorer.moonchain.com/address/0x2000777700000000000000000000000000000002) |
+| Eth/Mxc Price Aggregator | [0x0484e645F6287c7eA1B5E4f1F2aAdeE145Cc581e](https://explorer.moonchain.com/address/0x0484e645F6287c7eA1B5E4f1F2aAdeE145Cc581e) |
+| ERC721 Vault             | [0x523d07eF972991d47E58C1BD4A257E5000Ac684A](https://explorer.moonchain.com/address/0x523d07eF972991d47E58C1BD4A257E5000Ac684A) |
+| ERC20 Vault              | [0x68DfDe49A92c9f5C69FE64f62FA8239E931779bd](https://explorer.moonchain.com/address/0x68DfDe49A92c9f5C69FE64f62FA8239E931779bd) |
+| ERC1155 Vault            | [0xAC3B2C56c7e98b320b19774aC26a95CAea9cb72d](https://explorer.moonchain.com/address/0xAC3B2C56c7e98b320b19774aC26a95CAea9cb72d) |
 
-**Addresses on Geneva Testnet**
+
+
+
+
+## Geneva Testnet Layer 2 contracts
+
+**Arbitrum Sepolia**
+
+| Name      | Contract address                                                                                                   |
+|-----------|--------------------------------------------------------------------------------------------------------------------|
+| MXC Token | [0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4](https://sepolia.arbiscan.io/token/0x8cfc40cfe94ef106ceec7d0c97e4f02af99954a4) |
+| MXCL1| [0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B](https://sepolia.arbiscan.io/address/0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B)|
+| Automated Dcap Attestation | [0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df](https://sepolia.arbiscan.io/address/0x3e0c0dAB767FE8BA386175F0d4C92D45A1A6A4Df) |
+| Bridge| [0x730Ae731eDCfDB31a22ecA2B72242dC072d36336](https://sepolia.arbiscan.io/address/0x730Ae731eDCfDB31a22ecA2B72242dC072d36336)|
+| ERC-1155 Vault | [0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262](https://sepolia.arbiscan.io/address/0x6c7A4C797aDa9Bd706F376cF64f8C7F8163E4262) |
+| ERC-20 Vault | [0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748](https://sepolia.arbiscan.io/address/0x35c0b3f24235b7dE65cDAc389FDF8E90684f0748)|
+| ERC-721 Vault | [0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4](https://sepolia.arbiscan.io/address/0x8fd1604E79a35189B02242BE68bdBcE5a041A1C4) |
+| ETH MXC Price Aggregator | [0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28](https://sepolia.arbiscan.io/address/0x18460557d2c8B12A3C6ECc58DaA0F19000a12B28)|
+| Guardian Prover | [0xD3343e8162BB51b52884B130439166e3DCe8851F](https://sepolia.arbiscan.io/address/0xD3343e8162BB51b52884B130439166e3DCe8851F) |
+| Guardian Prover Minority | [0xa51C5DA59aF39a7C18134a0CF497C70157C49476](https://sepolia.arbiscan.io/address/0xa51C5DA59aF39a7C18134a0CF497C70157C49476)|
+| Prover Set | [0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB](https://sepolia.arbiscan.io/address/0x103FF2E2dfd9D5a163B652D8a913a4B0cA0AcBbB) |
+| Rollup Address Manager | [0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9](https://sepolia.arbiscan.io/address/0x8687d9034D4e6A12d2F91DB6FF27fb2cab5979D9)|
+| Shared Address Manager | [0x5E453d54F7783446bb206B261A4bffb24859512f](https://sepolia.arbiscan.io/address/0x5E453d54F7783446bb206B261A4bffb24859512f)|
+| Signal Service  | [0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1](https://sepolia.arbiscan.io/address/0x3d199603e63C61256E1a7Aac3DBe5a20C7a1bEB1)|
+| Tier SGX  | [0x7FF12AC8385e67970eBB8aEAc6c42c133E690649](https://sepolia.arbiscan.io/address/0x7FF12AC8385e67970eBB8aEAc6c42c133E690649)|
+| Tier ZkEVM RISC0  | [0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6](https://sepolia.arbiscan.io/address/0x425cB065F0f0e1BBF3FCB7FD5c4a0c94248863a6)|
+| Tier ZkEVM SP1  | [0xf08B17b181B3452d683E0Ff64268686d8116EA61](https://sepolia.arbiscan.io/address/0xf08B17b181B3452d683E0Ff64268686d8116EA61)|
+
+
+
+## Geneva Testnet Layer 3 contracts
+
+**Moonchain Geneva**
 
 | Contract Name | Contract Address | TAG | DEPLOYER |
 |----------------|-------------------|------|----------|
