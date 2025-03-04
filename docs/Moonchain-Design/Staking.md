@@ -104,41 +104,83 @@ After staking, periodically call the L1 Staking Contract to claim rewards.
 
 
 
-## Staking Contract
+## Interact with Contracts
 
-Mainnet Address: TBD
+The staking process interacts with the following contracts on the Arbitrum chain:
 
-Testnet Address: TBD
+- **MXCL1** (TaikoL1.sol)
 
+  Testnet: `0x6a5c9E342d5FB5f5EF8a799f0cAAB2678C939b0B`
 
+  Mainnet: `0x54D8864e8855A7B66eE42B8F2Eaa0F2E06bd641a`
 
-#### function stake(address _user, uint256 _amount)
+- **Staking** (L1Staking.sol)
 
-Deposits MXC token to be used as bonds.
+- **MxcToken** (MxcToken.sol)
 
-_user: The user address to credit.
-
-_amount: The amount of token to deposit.
-
-
-
-#### function stakingRequestWithdrawal(bool cancel)
-
-Request a withdrawal. It will start the lock period.
-
-cancel: Set to true for cancelling any previous request.
+The contract source code can be found in the [GitLab repository](https://github.com/MXCzkEVM/mxc-mono/tree/moonchain-mainnet/packages/protocol/contracts).
 
 
 
-#### function stakingWithdrawal() 
+Below are the example flows for basic staking actions.
 
-User completes the withdrawal after the lock period.
+#### Get contract address of Staking and MxcToken contracts.
+
+```mermaid
+sequenceDiagram
+  APP->>+MXCL1: resolve(encodeBytes32String('staking'))
+  MXCL1-->>-APP: Address of Staking Contract
+  APP->>+MXCL1: resolve(encodeBytes32String('taiko_token'))
+  MXCL1-->>-APP: Address of MxcToken Contract
+```
 
 
 
-#### function stakingClaimReward()
+#### Stake
 
-User claims their accumulated interest and transfers it to their wallet.
+```mermaid
+sequenceDiagram
+  APP->>+MxcToken: approve(stakingAddress, amount)
+  MxcToken-->>-APP: Success
+  APP->>+Staking: stake(userAddress, amount)
+  Staking-->>-APP: Success
+```
+
+
+
+#### Claim
+
+```mermaid
+sequenceDiagram
+  APP->>+Staking: stakingCalculateRewardDebt(userAddress)
+  Staking-->>-APP: Amount of rewarding
+  Note over APP,Staking: Proceed if rewarding > 0
+  APP->>+Staking: stakingClaimReward()
+  Staking-->>-APP: Success
+
+```
+
+#### Withdraw
+
+```mermaid
+sequenceDiagram
+  Note over APP,Staking: Perform the request first.
+  APP->>+Staking: stakingRequestWithdrawal(false)
+  Staking-->>-APP: Success
+  Note over APP,Staking: Wait for lock period.
+  APP->>+Staking: read WITHDRAWAL_LOCK_EPOCH
+  Staking-->>-APP: Withdraw Lock Epoch
+  APP->>+Staking: getCurrentEpoch()
+  Staking-->>-APP: Current Epoch
+  APP->>+Staking: stakingUserState(userAddress)
+  Staking-->>-APP: withdrawalRequestEpoch
+  Note over APP,Staking: Proceed if (Request + Lock) >= Current
+  APP->>+Staking: stakingWithdrawal()
+  Staking-->>-APP: Success
+
+```
+
+
 
 
 
